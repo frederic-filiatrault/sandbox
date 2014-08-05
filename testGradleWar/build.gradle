@@ -1,0 +1,9 @@
+ apply plugin: 'war'
+
+    repositories {
+       mavenCentral()
+    }
+
+    dependencies {
+       compile 'com.sun.jersey:jersey-bundle:1.9'
+    } 
