@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/main/webapp/WEB-INF"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/filiatraultf/.gradle/caches/modules-2/files-2.1/asm/asm/3.1/c157def142714c544bdea2e6144645702adf7097/asm-3.1.jar" sourcepath="C:/Users/filiatraultf/.gradle/caches/modules-2/files-2.1/asm/asm/3.1/2eaa4de56203f433f287a6df5885ef9ad3c5bcae/asm-3.1-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/filiatraultf/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-server/1.9/3a6ea7cc5e15c824953f9f3ece2201b634d90d18/jersey-server-1.9.jar" sourcepath="C:/Users/filiatraultf/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-server/1.9/d710a3f1d00388a093da6511ca26a743366edf60/jersey-server-1.9-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/filiatraultf/.gradle/caches/modules-2/files-2.1/com.sun.mail/javax.mail/1.5.0/ec2410fdf7e0a3022e7c2a2e6241039d1abc1e98/javax.mail-1.5.0.jar" sourcepath="C:/Users/filiatraultf/.gradle/caches/modules-2/files-2.1/com.sun.mail/javax.mail/1.5.0/6f759537630bbaad0f80781c0a2ebebf91125991/javax.mail-1.5.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/filiatraultf/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar" sourcepath="C:/Users/filiatraultf/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/3697e9f67a2ed7ac5f589cff30f21173299440/activation-1.1-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/filiatraultf/.gradle/caches/modules-2/files-2.1/javax/javaee-api/7.0/51399f902cc27a808122edcbebfaa1ad989954ba/javaee-api-7.0.jar" sourcepath="C:/Users/filiatraultf/.gradle/caches/modules-2/files-2.1/javax/javaee-api/7.0/a0c99c2a5626efb823da1500786e92c1bf6a57cf/javaee-api-7.0-sources.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.springsource.ide.eclipse.gradle.classpathcontainer"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
