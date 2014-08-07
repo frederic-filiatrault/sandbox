@@ -1,0 +1,38 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'  
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+	//compile 'javax.ws.rs:javax.ws.rs-api:2.0'
+	//compile 'com.sun.jersey:jersey-servlet:1.18.1'
+	//providedCompile 'javax.servlet:servlet-api:2.5'
+	//runtime 'javax.servlet:jstl:1.1.2'
+  
+	compile "javax.ws.rs:jsr311-api:1.1.1"
+
+    compile 'com.sun.jersey:jersey-server:1.13'
+    compile 'com.sun.jersey:jersey-core:1.13'
+    compile 'com.sun.jersey:jersey-servlet:1.13'
+    
+  //compile 'javax:javaee-api:7.0'
+  //compile 'org.glassfish.jersey.containers:jersey-container-servlet:2.11'
+  //compile 'org.glassfish.jersey.core:jersey-client:2.11'
+  
+  //providedCompile 'javax.servlet:servlet-api:2.5'
+  //runtime 'javax.servlet:jstl:1.1.2'
+}
+
+jettyRun.httpPort=9000
+jettyRunWar.stopPort = 8090
+jettyRunWar.stopKey = 'stopKey'
+jettyStop.stopPort = 8090
+jettyStop.stopKey = 'stopKey'
+jettyRun.stopPort = 8090
+jettyRun.stopKey = 'stopKey'
+
+// http://localhost:9000/testWebServicesRESTful1/
