@@ -1,0 +1,32 @@
+buildscript {
+    repositories {
+        maven { url "http://repo.spring.io/libs-release" }
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.1.5.RELEASE")
+    }
+}
+
+ apply plugin: 'java'
+ apply plugin: 'eclipse'
+ apply plugin: 'spring-boot'
+ 
+    repositories {
+       mavenCentral()
+       maven { url "http://repo.spring.io/libs-release" }
+    }
+
+    dependencies {
+       compile 'org.apache.derby:derby:10.10.2.0'
+       compile 'org.eclipse.persistence:eclipselink:2.5.2'
+       compile 'org.eclipse.persistence:javax.persistence:2.1.0'
+       compile 'org.apache.logging.log4j:log4j-api:2.0.1'
+       compile 'org.apache.logging.log4j:log4j-core:2.0.1'
+       
+       //compile 'org.springframework:spring-context:4.0.6.RELEASE'
+       //compile 'org.springframework:spring-web:4.0.6.RELEASE'
+       compile 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    } 
+    
