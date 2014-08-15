@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      th:fragment="page">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Zafea</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" type="text/css" media="all" href="../../resources/css/zafea.css" th:href="@{/css/zafea.css}" />
+		<link rel="stylesheet" type="text/css" media="all" href="../../css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}" />
+		<link rel="stylesheet" type="text/css" media="all" href="../../css/bootstrap-theme.min.css" th:href="@{/css/bootstrap-theme.min.css}" />
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="../../js/bootstrap.min.js" th:src="@{/js/bootstrap.min.js}"></script>
+</head>
+    <body>
+        <div th:replace="fragments/header :: header">HEADER</div>
+        <div th:include="this :: content"/>
+        <div th:replace="fragments/footer :: footer">Footer</div>
+    </body>
+</html>
